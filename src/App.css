@@ -20,10 +20,10 @@ line-height: 28px;
 
 .list_master{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+gap: 16px;
   
   width: 472px;
   height: 56px;
@@ -182,8 +182,8 @@ flex-grow: 0;
   /* Auto layout */
   
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   padding: 6px 16px;
   gap: 12px;
@@ -206,9 +206,274 @@ flex-grow: 0;
   align-self: stretch;
   flex-grow: 0;
 }
+.mText{
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
 
+
+/* Text/Text-03 */
+
+color: #B3B3B7;
+}
 .myear{
   display: flex;
   justify-content: space-between;
 }
 
+.cvv{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 16px;
+  gap: 12px;
+  
+  width: 228px;
+  height: 48px;
+  
+  /* Icon / 03-Tertiary */
+  
+  background: #F3F3F3;
+  /* UI / UI-03 */
+  
+
+  border-radius: 10px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+
+#cb1{
+  accent-color: #01020F;
+
+  transform: scale(1.5);
+
+}
+
+
+.default{
+  flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 16px;
+
+width: 364px;
+height: 24px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+.df{
+  display: flex;
+  gap: 10px;
+  align-items: center ;
+
+}
+
+.dfText{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  
+  
+  /* Text / Text-02 */
+  
+  color: #67676F;
+}
+.couponT{
+  color: #67676F;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+}
+
+.cpn{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 16px;
+gap: 16px;
+
+width: 100px;
+height: 48px;
+
+
+/* UI/UI-01 */
+
+background: #F3F3F3;
+/* Icon/icon-primary */
+
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.cpnbtn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+border-radius: 18px;
+width: 78px;
+height: 47px;
+
+/* Icon/icon-primary */
+
+background: #01020F;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.btnText{
+  font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Icon / 03-Tertiary */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.contBtn{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 0px 0px;
+  margin-top: 16px;
+  
+  width: 100%;
+  height: 64px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.contBtn1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 13px 16px 11px;
+  gap: 8px;
+  
+  width: 364px;
+ 
+  
+  /* Icon/icon-primary */
+  
+  background: #01020F;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+
+.btnB{
+
+
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 16px;
+  
+  width: 472px;
+  height: 48px;
+  
+  /* UI/UI-01 */
+  
+  background: #01020F;
+  border-radius: 18px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+}
+.BT{
+  font-weight: 500;
+font-size: 16px;
+line-height: 149%;
+
+/* identical to box height, or 24px */
+
+
+
+color: #FFFFFF;
+}
+
+.img_card{
+  
+  width: 364px;
+height: 110px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+
+.imgdf{
+  margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
