@@ -1,0 +1,214 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.heading{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+width: 472px;
+height: 44px;
+
+
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+}
+
+.list_master{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  
+  width: 472px;
+  height: 56px;
+  
+}
+
+.list_add{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 364px;
+  height: 56px;
+  cursor: pointer;
+  color: #3064F6;
+
+}
+.add_cr_icon{
+display: inline;
+margin-left: 2.5px;
+
+}
+
+.card_number{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+
+width: 472px;
+height: 75px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+.card_n_title{
+  letter-spacing: 0.4px;
+
+/* Text / Text-02 */
+
+color: #67676F;
+
+flex: none;
+order: 0;
+flex-grow: 1;
+  font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 16px 8px 0px;
+  gap: 10px;
+  
+  width: 472px;
+  height: 27px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.card_n_input{
+
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 16px;
+gap: 16px;
+
+width: 472px;
+height: 48px;
+
+/* UI/UI-01 */
+
+background: #F3F3F3;
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+.exp{
+  display: flex;
+flex-direction: column;
+margin-top: 16px;
+
+border: 1pz solid black;
+width: 472px;
+height: 75px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.b{
+  border: 1px solid;
+}
+
+.exp1{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 16px 8px 0px;
+
+
+width: 228px;
+height: 27px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.exp1Text{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  /* identical to box height, or 158% */
+  
+  letter-spacing: 0.4px;
+  
+  /* Text / Text-02 */
+  
+  color: #67676F;
+}
+
+
+.month{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  gap: 12px;
+  
+  width: 228px;
+  height: 48px;
+  
+  /* Icon / 03-Tertiary */
+  
+  background: #FFFFFF;
+  /* UI / UI-03 */
+  
+  border: 1px solid #DCDCDC;
+  border-radius: 10px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.myear{
+  display: flex;
+  justify-content: space-between;
+}
+
